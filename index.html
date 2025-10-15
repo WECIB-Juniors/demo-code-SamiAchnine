@@ -12,19 +12,25 @@
     <!-- METADATA GOES HERE -->
 </head>
 <body>
+
+    <header id="header">This is the header. Hi there!</header>
     <!-- USER VIEWABLE CONTENT GOES HERE -->
     <h1>HTML BASICS</h1>
-    <h2>HyperText Markup Language</h2>
+    <h2><a href=".\L3.html">HyperText Markup Language</a></h2>
+
+    <!-- BASICS -->
 
     <p>HTML allows us to create the structure of a website.</p>
-    <img src=".\zoomer.png" alt="Picture of a white man in a black suit with dark hair. He is slightly smiling in a way that seems fake." width="100" height="100">
+    <img src=".\zoomer.png" alt="Picture of a white man in a black suit with dark hair. He is slightly smiling in a way that seems fake." width="200" height="100">
     <article>What can we do with HTML?
         <section>Write paragraphs.
             <p>This is a paragraph written within a pair of < p > < /p >tags. Each new set of tags typically creates a newline.
             You can also create a newline with the < br > tag.</p> <br>
             <p><b>Lorem</b> ipsum <i>dolor</i> sit, amet <b><em>consectetur</em></b> adipisicing elit. Numquam, fuga. Minima repellendus, libero, laboriosam iste quae quos vitae voluptatibus fuga accusantium quas aperiam, dolores veritatis nulla eius unde sed sunt?</p> 
         </section>
-        <hr>
+
+        <hr> <!-- HEADERS -->
+
         <section>
         <h2>Headers</h2>
         <h3>Header Size 3</h3>
@@ -33,16 +39,33 @@
         <h5>Header Size 5</h5>
         <h6>Header Size 6</h6>
         </section>
+
+        <hr> <!-- LISTS & BUTTONS -->
+
+        <section>
+            <h2>My favourite movies</h2>
+            <h3> -- Numbered Lists -- </h3>
+            <ol>
+                <li>Sonic the Hedgehog 3</li>
+                <li>(Gap)</li>
+                <li>Every other movie</li>
+            </ol>
+            
+            <h2>My favourite politicians</h2>
+            <h3> -- Unordered Lists -- </h3>
+            <ul>
+                <li>Abraham Lincoln</li>
+                <li>(Gap)</li>
+                <li>Every other politician</li>
+            </ul>
+            <br>
+        </section>
+        <!-- DIVS AND SEMANTICS -->
     </article>
     <hr>
     <div>
-        <p> < div > tags are used to divide sections of text. This text is wrapped inside a < div > right now!<br>This mainly helps with programming with JS and accessibility.</p>
-        <p> < div id="nav" > < div class="header" > < div id="footer" > are used to indicate navigation sections, headers, and footers. The newer semantic tags mostly replace this.</p>
+        <p> < div > tags are used to divide sections of text. This text is wrapped inside a < div > right now!<br>This mainly helps with programming with JS and accessibility.<br> < div id="nav" > < div class="header" > < div id="footer" > are used to indicate navigation sections, headers, and footers. The newer semantic tags mostly replace this.<br>This text is in a div right now!<br>< section > < /section > and < article > < /article > are known as semantic tags, helping with organization and accessibility. <br> < b > (bald) and < i > (italian) tag <br> < strong > (bald) and < em > (italian) tags. <br> Do the same as above, better for accessibility.</p>
     </div>
-
-    <!-- <section> </section> and <article> </article> are known as semantic tags, helping with organization and accessibility. -->
-    <!-- <b> (bald) and <i> (italian) tag -->
-    <!-- <strong> (bald) and <em> (italian) tags. Do the same as above-->
-
+    <a href="#header"><button>--- Return to top ---</button></a>
 </body>
 </html>
