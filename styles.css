@@ -1,0 +1,29 @@
+/* This is your CSS Stylesheet */
+
+
+/* Universal Selector */
+* {
+    color: blue;
+    background-color: white;
+}
+
+/* Modify an element by ID */
+#header {
+    font-size: xx-small;
+}
+
+/* Modify an element by class */
+.headers {
+    font-size: large;
+}
+
+/* Modify an element by grouping */
+p, a {
+    font-family: arial;
+    font-size: large;
+}
+
+ol, ul {
+    align-items: right;
+    /* Rahul does not simply center a div. */
+}
